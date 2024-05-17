@@ -1,0 +1,38 @@
+{
+  "projectName": "Taras",
+  "labelPrefix": "TRS",
+  "website": "https://theperfectdex.com",
+  "twitter": "theperfectdex",
+  "discord": "https://discord.com/theperfectdex",
+  "category": "Token",
+  "description": "Low fees, fully decentralized Cardano dex",
+
+  // add contracts as per below spec
+  "contracts": [
+    {
+      "name": "Order Contract",
+      "version": 1,
+      "language": "PLUTUS", // PLUTUS, NATIVESCRIPT
+      "languageVersion": 1,
+      "scriptHash": "db32e243255f840792f922346c197c8e03f429c32fff30db18a627e9",
+      "github": "https://github.com/awesomedex/order-contract",
+      "description": "Description of this contract",
+      "audit": [
+        {
+          "provider": "Secure Z",
+          "report": "https://securez.com/thePerfectDexReport",
+          "date": "DD-MM-YYYY"
+        }
+      ]
+    },
+    {
+      "name": "Harvest Contract",
+      "version": 2,
+      "language": "PLUTUS",
+      "languageVersion": 1,
+      "scriptHash": "db32e243255f840792f922346c197c8e03f429c32fff30db18a627e9",
+      "github": "https://github.com/awesomedex/order-contract",
+      "description": "Description of this contract"
+    }
+  ]
+}
